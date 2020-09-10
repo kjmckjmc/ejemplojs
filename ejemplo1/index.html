@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Variables</title>
     <script src="js/variables.js"></script>
+    <script src="js/operArit.js"></script>
 </head>
 <body>
     
+
+<form>
+<label for="nUno">Numero Uno</label>
+<input type="text" name="nUno" id="nUno">
+<br><br>
+<label for="nDos">Numero Dos</label>
+<input type="text" name="nDos" id="nDos">
+<br><br>
+<button type="button" onclick="sumar()">Calcular suma</button>
+<button type="button" onclick="multiplicar()">Calcular multiplicar</button>
+<button type="button" onclick="resta()">Calcular resta</button>
+<p>resultado: <textarea name="resulOperacion" id="resulOperacion" cols="30" rows="10"></textarea></p>
+
+
+</form>
+
 </body>
 </html>
